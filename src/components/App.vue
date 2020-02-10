@@ -1,9 +1,12 @@
 <template>
-  <article id="app"></article>
+  <article id="app">
+    <router-view></router-view>
+  </article>
 </template>
 
 <script>
 export default {
+  name: "App",
   data() {
     return {};
   }
