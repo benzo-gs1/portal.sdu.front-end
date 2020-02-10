@@ -1,1 +1,5 @@
-export default {};
+export default {
+  validateToken(token) {
+    return false;
+  }
+};
