@@ -1,5 +1,6 @@
 <template>
-  <section id="auth"></section>
+  <section id="auth">
+  </section>
 </template>
 
 <script>
