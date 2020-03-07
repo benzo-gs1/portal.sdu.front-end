@@ -8,8 +8,8 @@ const router = new VueRouter({
   routes: [
     {
       path: "/",
-      component: () => import("@/components/the/TheProfile"),
-      alias: "/profile"
+      component: () => import("@/components/the/TheHomePage"),
+      alias: "/homePage"
     },
     {
       path: "/auth",

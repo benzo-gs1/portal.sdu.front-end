@@ -1,9 +1,9 @@
 <template>
-  <section id="profile"></section>
+  <section id="homePage"></section>
 </template>
 
 <script>
 export default {
-  name: "Profile"
+  name: "HomePage"
 }
 </script>

@@ -15,7 +15,7 @@ export default {
   created() {
     // obtain local token
     const token = this.$cookies.get("token");
-    if (token && api.validate(token)) this.$router.push("/profile");
+    if (token && api.validate(token)) this.$router.push("/homePage");
 
     // if it's not valid or doesn't exists
     this.$router.push("/auth");
