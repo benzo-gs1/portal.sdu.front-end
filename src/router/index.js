@@ -9,7 +9,7 @@ const router = new VueRouter({
     {
       path: "/",
       component: () => import("@/components/the/TheHomePage"),
-      alias: "/homePage"
+      alias: "/home-page"
     },
     {
       path: "/auth",
