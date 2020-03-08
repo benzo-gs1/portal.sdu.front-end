@@ -20,8 +20,6 @@ export default {
     // if it's not valid or doesn't exists
     this.$router.push("/auth");
   },
-  methods: {
-  },
 };
 </script>
 
