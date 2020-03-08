@@ -8,12 +8,12 @@ const router = new VueRouter({
   routes: [
     {
       path: "/",
-      component: () => import("@/components/the/TheProfile"),
-      alias: "/profile"
+      component: () => import("@/views/TheHomePage"),
+      alias: "/home-page"
     },
     {
       path: "/auth",
-      component: () => import("@/components/the/TheAuth")
+      component: () => import("@/views/TheAuth")
     }
   ]
 });
