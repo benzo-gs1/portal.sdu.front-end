@@ -7,7 +7,7 @@
 <script>
 import api from "@/api";
 
-export default {
+export default { 
   name: "App",
   data() {
     return {};
@@ -19,7 +19,7 @@ export default {
 
     // if it's not valid or doesn't exists
     this.$router.push("/auth");
-  }
+  },
 };
 </script>
 
