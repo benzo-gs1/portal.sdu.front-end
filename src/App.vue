@@ -7,19 +7,19 @@
 <script>
 import api from "@/api";
 
-export default { 
+export default {
   name: "App",
   data() {
     return {};
   },
-  created() {
+  async created() {
     // obtain local token
     const token = this.$cookies.get("token");
-    if (token && api.validate(token)) this.$router.push("/home-page");
+    if (token && await api.validate(token)) this.$router.push("/home-page");
 
     // if it's not valid or doesn't exists
     this.$router.push("/auth");
-  },
+  }
 };
 </script>
 

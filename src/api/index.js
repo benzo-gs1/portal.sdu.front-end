@@ -1,5 +1,5 @@
 export default {
-  validateToken(token) {
+  async validateToken(token) {
     return false;
   }
 };
