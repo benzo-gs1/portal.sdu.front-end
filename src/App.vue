@@ -22,6 +22,10 @@ export default class App extends Vue {}
   border: none;
 }
 
+html {
+  font-size: 100%;
+}
+
 #app {
   width: 100vw;
   height: 100vh;

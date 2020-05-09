@@ -1,13 +1,14 @@
+const path = require("path");
+
+const SCSS_PATH = path.resolve(__dirname, "./src/styles/globals.scss");
+
 module.exports = {
-  css: {
-    loaderOptions: {
-      sass: {
-        prependData: `
-          @import "@/styles/_colors.scss";
-          @import "@/styles/_globals.scss";
-        `,
+  outputDir: "./build",
+  configureWebpack: {
+    resolve: {
+      alias: {
+        globals: SCSS_PATH,
       },
     },
   },
-  outputDir: "./build",
 };

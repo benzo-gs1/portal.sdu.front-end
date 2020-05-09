@@ -9,6 +9,4 @@ import { Vue, Component } from "vue-property-decorator";
 export default class SignInPage extends Vue {}
 </script>
 
-<style lang="scss" scoped>
-$background: #004396;
-</style>
+<style lang="scss" scoped></style>
