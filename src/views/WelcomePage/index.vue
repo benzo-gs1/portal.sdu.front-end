@@ -15,9 +15,14 @@
 
 <script lang="ts">
 import { Vue, Component } from "vue-property-decorator";
+import api from "@/api";
 
 @Component
-class WelcomePage extends Vue {}
+class WelcomePage extends Vue {
+  public created() {
+    api.token.validate("");
+  }
+}
 
 export default WelcomePage;
 </script>
