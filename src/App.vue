@@ -20,6 +20,7 @@ export default class App extends Vue {}
   box-sizing: border-box;
   outline: none;
   border: none;
+  font-family: Gilroy-Regular;
 }
 
 // collecting fonts

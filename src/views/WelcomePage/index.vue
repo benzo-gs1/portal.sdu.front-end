@@ -27,7 +27,7 @@ export default WelcomePage;
 
 #welcome-page {
   height: 100%;
-  padding: 1em;
+  padding: 2em;
 
   background-color: $sduBlue;
 
@@ -41,8 +41,8 @@ export default WelcomePage;
 .group-wrapper {
   @extend .flex-down;
 
-  height: 100px;
   align-self: flex-end;
   color: white;
+  font-size: 0.95rem;
 }
 </style>
