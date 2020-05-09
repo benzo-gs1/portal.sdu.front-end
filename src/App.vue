@@ -1,43 +1,33 @@
 <template>
-  <article id="app">
+  <div id="app">
     <router-view></router-view>
-  </article>
+  </div>
 </template>
 
-<script>
-import api from "@/api";
+<script lang="ts">
+import { Vue, Component } from "vue-property-decorator";
 
-export default {
-  name: "App",
-  data() {
-    return {};
-  },
-  async created() {
-    // obtain local token
-    const token = this.$cookies.get("token");
-    if (token && (await api.validate(token))) this.$router.push("/home-page");
-
-    // if it's not valid or doesn't exists
-    this.$router.push("/auth");
-  },
-};
+@Component
+export default class App extends Vue {}
 </script>
 
 <style lang="scss">
-[theme="light"] {
-  // light theme variables
-}
-
-[theme="dark"] {
-  // dark theme variables
-}
+@import "globals";
 
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
   outline: none;
   border: none;
-  box-sizing: border-box;
+  font-family: Gilroy-Regular;
+}
+
+// collecting fonts
+@include import-fonts(Gilroy, Bold, Light, Medium, Regular, Semi-bold);
+
+html {
+  font-size: 100%;
 }
 
 #app {

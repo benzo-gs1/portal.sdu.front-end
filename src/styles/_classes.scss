@@ -1,0 +1,29 @@
+.flex {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+
+  &-down {
+    @extend .flex;
+    flex-direction: column;
+  }
+
+  &-right {
+    @extend .flex;
+    flex-direction: row;
+  }
+
+  &-center {
+    @extend .flex;
+  }
+}
+
+.grid {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+
+  &-center {
+    @extend .grid;
+  }
+}

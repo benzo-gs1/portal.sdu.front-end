@@ -1,0 +1,32 @@
+@use "sass:string";
+
+@function parseValues($values...) {
+  $string: "";
+
+  @for $i from 0 to length($values) {
+    $value: nth($values, $i + 1);
+
+    $string: "#{$string} #{$value}";
+  }
+
+  @return unquote($string);
+}
+
+@mixin rows($rows...) {
+  grid-template-rows: parseValues($rows);
+}
+
+@mixin cols($cols...) {
+  grid-template-columns: parseValues($rows);
+}
+
+@mixin import-fonts($prefix, $fonts...) {
+  @for $i from 0 to length($fonts) {
+    $font: nth($fonts, $i + 1);
+    $path: "assets/fonts/#{$prefix}/#{$font}.ttf";
+    @font-face {
+      font-family: #{$prefix}-#{$font};
+      src: url($path);
+    }
+  }
+}
