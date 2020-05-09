@@ -1,14 +1,14 @@
 <template>
-  <div id="sign-in-page"></div>
+  <label></label>
 </template>
 
 <script lang="ts">
 import { Vue, Component } from "vue-property-decorator";
 
 @Component
-export default class SignInPage extends Vue {}
+export default class BaseFormInput extends Vue {}
 </script>
 
 <style lang="scss" scoped>
-$background: #004396;
+
 </style>
