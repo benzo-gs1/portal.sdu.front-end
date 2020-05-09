@@ -1,5 +1,5 @@
 <template>
-  <div id="welcome-page" class="flex-down">
+  <div id="welcome-page">
     <img
       class="logo"
       src="@/assets/icons/sign-in/sdu-logo.svg"
@@ -30,8 +30,19 @@ export default WelcomePage;
   padding: 1em;
 
   background-color: $sduBlue;
+
+  @extend .grid-center;
+  @include rows(1fr, 1fr);
 }
 
 .logo {
+  align-self: flex-end;
+}
+.group-wrapper {
+  @extend .flex-down;
+
+  height: 100px;
+  align-self: flex-end;
+  color: white;
 }
 </style>

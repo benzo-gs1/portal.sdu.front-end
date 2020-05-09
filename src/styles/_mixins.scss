@@ -1,0 +1,22 @@
+@mixin rows($rows...) {
+  grid-template-rows: $rows;
+}
+
+@mixin cols($cols) {
+  grid-template-columns: $cols;
+}
+
+@mixin areas($areas) {
+  grid-template-areas: $areas;
+}
+
+@mixin import-fonts($prefix, $fonts...) {
+  @for $i from 0 to length($fonts) {
+    $font: nth($fonts, $i + 1);
+    $path: "assets/fonts/#{$prefix}/#{$font}.ttf";
+    @font-face {
+      font-family: #{$prefix}-#{$font};
+      src: url($path);
+    }
+  }
+}
