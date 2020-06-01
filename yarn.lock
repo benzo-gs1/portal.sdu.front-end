@@ -1119,13 +1119,6 @@
   dependencies:
     "@vue/cli-shared-utils" "^4.4.1"
 
-"@vue/cli-plugin-router@~4.3.0":
-  version "4.3.1"
-  resolved "https://registry.yarnpkg.com/@vue/cli-plugin-router/-/cli-plugin-router-4.3.1.tgz#0ba589f4e9a1f3e64a8ff6ccd92f7ce2845586bf"
-  integrity sha512-m0ntr5R6q62oNMODgoyHAVAd/sDtsH15GdBrScZsPNeyHxmzmNBDlsNM38yYGGY064zDRRWif15d1yaTREybrA==
-  dependencies:
-    "@vue/cli-shared-utils" "^4.3.1"
-
 "@vue/cli-plugin-typescript@~4.4.1":
   version "4.4.1"
   resolved "https://registry.yarnpkg.com/@vue/cli-plugin-typescript/-/cli-plugin-typescript-4.4.1.tgz#00f2e0af3a50e00074cb01dea53ebb75bb50f392"
@@ -1205,7 +1198,7 @@
     webpack-dev-server "^3.11.0"
     webpack-merge "^4.2.2"
 
-"@vue/cli-shared-utils@^4.3.1", "@vue/cli-shared-utils@^4.4.1":
+"@vue/cli-shared-utils@^4.4.1":
   version "4.4.1"
   resolved "https://registry.yarnpkg.com/@vue/cli-shared-utils/-/cli-shared-utils-4.4.1.tgz#930304ade5a9f9bf0d2fd67d9305cad83d04aae1"
   integrity sha512-teevHgI7XUsKVMOncx3M+6iLjO28woGfRwgUG4hR83moVBHQe5x2OCr2i5t/58bwpv269RD5RYXBQCGtIXuxZw==
@@ -8129,10 +8122,10 @@ vue-property-decorator@^8.4.1:
   dependencies:
     vue-class-component "^7.1.0"
 
-vue-router@^3.2.0:
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/vue-router/-/vue-router-3.2.0.tgz#da35195ffe37fdf0bec9f5f8f72781d2a7718815"
-  integrity sha512-khkrcUIzMcI1rDcNtqkvLwfRFzB97GmJEsPAQdj7t/VvpGhmXLOkUfhc+Ah8CvpSXGXwuWuQO+x8Sy/xDhXZIA==
+vue-router@^3.3.2:
+  version "3.3.2"
+  resolved "https://registry.yarnpkg.com/vue-router/-/vue-router-3.3.2.tgz#0099de402edb2fe92f9711053ab5a2156f239cad"
+  integrity sha512-5sEbcfb7MW8mY8lbUVbF4kgcipGXsagkM/X+pb6n0MhjP+RorWIUTPAPSqgPaiPOxVCXgAItBl8Vwz8vq78faA==
 
 vue-style-loader@^4.1.0, vue-style-loader@^4.1.2:
   version "4.1.2"
