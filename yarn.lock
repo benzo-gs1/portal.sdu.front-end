@@ -1135,10 +1135,10 @@
     webpack "^4.0.0"
     yorkie "^2.0.0"
 
-"@vue/cli-plugin-vuex@^4.4.1", "@vue/cli-plugin-vuex@~4.4.1":
-  version "4.4.1"
-  resolved "https://registry.yarnpkg.com/@vue/cli-plugin-vuex/-/cli-plugin-vuex-4.4.1.tgz#98d18fc5d36fa6e0d1fc2ecaeea37aa965564f19"
-  integrity sha512-FtOFsDP0qznwVaCz0BZmTzUm5vhHSJzX2/XD3L5dLTkrNxyDEbZmbKoX0n1OzBcQwZC7dkJZP2tdoCQx0mX//g==
+"@vue/cli-plugin-vuex@^4.4.1", "@vue/cli-plugin-vuex@~4.5.12":
+  version "4.5.12"
+  resolved "https://registry.yarnpkg.com/@vue/cli-plugin-vuex/-/cli-plugin-vuex-4.5.12.tgz#f7fbe177ee7176f055b546e9e74472f9d9177626"
+  integrity sha512-STgbvNv/3iHAKArc18b/qjN7RX1FTrfxPeHH26GOr/A8lJes7+CSluZZ8E5R7Zr/vL0zOqOkUVDAjFXVf4zWQA==
 
 "@vue/cli-service@~4.4.1":
   version "4.4.1"
